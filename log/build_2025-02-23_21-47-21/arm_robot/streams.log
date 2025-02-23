@@ -1,0 +1,50 @@
+[0.063s] Invoking command in '/home/shrey/arm_robot/build/arm_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shrey/arm_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrey/arm_robot/install/arm_robot
+[0.332s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.013s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.414s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.685s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.203s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.203s] -- Configured cppcheck include dirs: 
+[3.203s] -- Configured cppcheck exclude dirs and/or files: 
+[3.228s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.244s] -- Added test 'lint_cmake' to check CMake code style
+[3.257s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.309s] -- Added test 'uncrustify' to check C / C++ code style
+[3.310s] -- Configured uncrustify additional arguments: 
+[3.326s] -- Added test 'xmllint' to check XML markup files
+[3.346s] -- Configuring done
+[3.438s] -- Generating done
+[3.472s] -- Build files have been written to: /home/shrey/arm_robot/build/arm_robot
+[3.502s] Invoked command in '/home/shrey/arm_robot/build/arm_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shrey/arm_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrey/arm_robot/install/arm_robot
+[3.504s] Invoking command in '/home/shrey/arm_robot/build/arm_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/arm_robot/build/arm_robot -- -j12 -l12
+[3.661s] Invoked command in '/home/shrey/arm_robot/build/arm_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/arm_robot/build/arm_robot -- -j12 -l12
+[3.710s] Invoking command in '/home/shrey/arm_robot/build/arm_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/arm_robot/build/arm_robot
+[3.733s] -- Install configuration: ""
+[3.736s] -- Execute custom install script
+[3.740s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/launch/control.launch.py
+[3.794s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/launch/launch_sim.launch.py
+[3.829s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/launch/rsp.launch.py
+[3.870s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/launch/rviz.launch.py
+[3.913s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/description/gazebo_control.xacro
+[3.958s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/description/inertial_macros.xacro
+[4.008s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/description/robot.urdf.xacro
+[4.047s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/description/robot_core_lr.xacro
+[4.096s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/config/controller_position.yaml
+[4.122s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/rviz/default.rviz
+[4.166s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/lib/arm_robot/control.py
+[4.203s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/ament_index/resource_index/package_run_dependencies/arm_robot
+[4.232s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/ament_index/resource_index/parent_prefix_path/arm_robot
+[4.273s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/environment/ament_prefix_path.sh
+[4.316s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/environment/ament_prefix_path.dsv
+[4.380s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/environment/path.sh
+[4.413s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/environment/path.dsv
+[4.477s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/local_setup.bash
+[4.516s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/local_setup.sh
+[4.552s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/local_setup.zsh
+[4.584s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/local_setup.dsv
+[4.620s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/package.dsv
+[4.662s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/ament_index/resource_index/packages/arm_robot
+[4.742s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/cmake/arm_robotConfig.cmake
+[4.781s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/cmake/arm_robotConfig-version.cmake
+[4.815s] -- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/package.xml
+[4.878s] Invoked command in '/home/shrey/arm_robot/build/arm_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/arm_robot/build/arm_robot

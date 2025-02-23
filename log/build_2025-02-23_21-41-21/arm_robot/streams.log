@@ -1,0 +1,33 @@
+[0.085s] Invoking command in '/home/shrey/arm_robot/build/arm_robot': /usr/bin/cmake /home/shrey/arm_robot -DCMAKE_INSTALL_PREFIX=/home/shrey/arm_robot/install/arm_robot
+[1.548s] -- The C compiler identification is GNU 11.4.0
+[4.623s] -- The CXX compiler identification is GNU 11.4.0
+[6.747s] -- Detecting C compiler ABI info
+[7.716s] -- Detecting C compiler ABI info - done
+[7.753s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.758s] -- Detecting C compile features
+[7.762s] -- Detecting C compile features - done
+[7.783s] -- Detecting CXX compiler ABI info
+[8.655s] -- Detecting CXX compiler ABI info - done
+[8.676s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.678s] -- Detecting CXX compile features
+[8.681s] -- Detecting CXX compile features - done
+[15.704s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[15.705s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[15.705s]   has asked CMake to find a package configuration file provided by
+[15.705s]   "ament_cmake", but CMake did not find one.
+[15.705s] 
+[15.705s]   Could not find a package configuration file provided by "ament_cmake" with
+[15.705s]   any of the following names:
+[15.706s] 
+[15.706s]     ament_cmakeConfig.cmake
+[15.706s]     ament_cmake-config.cmake
+[15.706s] 
+[15.706s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[15.707s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[15.707s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[15.707s]   has been installed.
+[15.707s] 
+[15.707s] [0m
+[15.708s] -- Configuring incomplete, errors occurred!
+[15.708s] See also "/home/shrey/arm_robot/build/arm_robot/CMakeFiles/CMakeOutput.log".
+[15.762s] Invoked command in '/home/shrey/arm_robot/build/arm_robot' returned '1': /usr/bin/cmake /home/shrey/arm_robot -DCMAKE_INSTALL_PREFIX=/home/shrey/arm_robot/install/arm_robot

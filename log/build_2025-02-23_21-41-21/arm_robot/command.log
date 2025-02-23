@@ -1,0 +1,2 @@
+Invoking command in '/home/shrey/arm_robot/build/arm_robot': /usr/bin/cmake /home/shrey/arm_robot -DCMAKE_INSTALL_PREFIX=/home/shrey/arm_robot/install/arm_robot
+Invoked command in '/home/shrey/arm_robot/build/arm_robot' returned '1': /usr/bin/cmake /home/shrey/arm_robot -DCMAKE_INSTALL_PREFIX=/home/shrey/arm_robot/install/arm_robot

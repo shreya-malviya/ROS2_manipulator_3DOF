@@ -1,0 +1,44 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shrey/arm_robot/build/arm_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/launch/control.launch.py
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/launch/launch_sim.launch.py
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/launch/rsp.launch.py
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/launch/rviz.launch.py
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/description/gazebo_control.xacro
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/description/inertial_macros.xacro
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/description/robot.urdf.xacro
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/description/robot_core_lr.xacro
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/config/controller_position.yaml
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/rviz/default.rviz
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/lib/arm_robot/control.py
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/ament_index/resource_index/package_run_dependencies/arm_robot
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/ament_index/resource_index/parent_prefix_path/arm_robot
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/environment/ament_prefix_path.sh
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/environment/path.sh
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/environment/path.dsv
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/local_setup.bash
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/local_setup.sh
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/local_setup.zsh
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/local_setup.dsv
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/package.dsv
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/ament_index/resource_index/packages/arm_robot
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/cmake/arm_robotConfig.cmake
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/cmake/arm_robotConfig-version.cmake
+-- Symlinking: /home/shrey/arm_robot/install/arm_robot/share/arm_robot/package.xml

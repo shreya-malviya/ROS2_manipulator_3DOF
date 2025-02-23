@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.008428] (arm_robot) JobQueued: {'identifier': 'arm_robot', 'dependencies': OrderedDict()}
+[0.008719] (arm_robot) JobStarted: {'identifier': 'arm_robot'}
+[0.056622] (arm_robot) JobProgress: {'identifier': 'arm_robot', 'progress': 'cmake'}
+[0.083116] (arm_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/shrey/arm_robot', '-DCMAKE_INSTALL_PREFIX=/home/shrey/arm_robot/install/arm_robot'], 'cwd': '/home/shrey/arm_robot/build/arm_robot', 'env': OrderedDict([('USER', 'shrey'), ('SHLVL', '1'), ('HOME', '/home/shrey'), ('OLDPWD', '/home/shrey'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'shrey'), ('NAME', 'LAPTOP-NF81MTHA'), ('WSL_INTEROP', '/run/WSL/39301_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/oraclexe/app/oracle/product/10.2.0/server/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/shrey/Documents/A13/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/apache-maven-3.9.9/bin:/mnt/c/Users/shrey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shrey/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/MinGW/bin:/mnt/c/Users/shrey/Documents/mongosh-1.10.5-win32-x64/mongosh-1.10.5-win32-x64/bin:/mnt/c/Users/shrey/AppData/Roaming/npm:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.3.3/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('PWD', '/home/shrey/arm_robot/build/arm_robot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.098516] (-) TimerEvent: {}
+[0.199556] (-) TimerEvent: {}
+[0.300602] (-) TimerEvent: {}
+[0.401568] (-) TimerEvent: {}
+[0.505791] (-) TimerEvent: {}
+[0.606483] (-) TimerEvent: {}
+[0.707052] (-) TimerEvent: {}
+[0.808398] (-) TimerEvent: {}
+[0.910323] (-) TimerEvent: {}
+[1.011052] (-) TimerEvent: {}
+[1.111612] (-) TimerEvent: {}
+[1.212193] (-) TimerEvent: {}
+[1.313037] (-) TimerEvent: {}
+[1.414593] (-) TimerEvent: {}
+[1.515382] (-) TimerEvent: {}
+[1.553455] (arm_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.615797] (-) TimerEvent: {}
+[1.716792] (-) TimerEvent: {}
+[1.817592] (-) TimerEvent: {}
+[1.918944] (-) TimerEvent: {}
+[2.019560] (-) TimerEvent: {}
+[2.120295] (-) TimerEvent: {}
+[2.220996] (-) TimerEvent: {}
+[2.321843] (-) TimerEvent: {}
+[2.422866] (-) TimerEvent: {}
+[2.523682] (-) TimerEvent: {}
+[2.624253] (-) TimerEvent: {}
+[2.725482] (-) TimerEvent: {}
+[2.826621] (-) TimerEvent: {}
+[2.927356] (-) TimerEvent: {}
+[3.028225] (-) TimerEvent: {}
+[3.129161] (-) TimerEvent: {}
+[3.229885] (-) TimerEvent: {}
+[3.330401] (-) TimerEvent: {}
+[3.431169] (-) TimerEvent: {}
+[3.532030] (-) TimerEvent: {}
+[3.632848] (-) TimerEvent: {}
+[3.734060] (-) TimerEvent: {}
+[3.834941] (-) TimerEvent: {}
+[3.935704] (-) TimerEvent: {}
+[4.036455] (-) TimerEvent: {}
+[4.137052] (-) TimerEvent: {}
+[4.237613] (-) TimerEvent: {}
+[4.340333] (-) TimerEvent: {}
+[4.445723] (-) TimerEvent: {}
+[4.552282] (-) TimerEvent: {}
+[4.631436] (arm_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.653042] (-) TimerEvent: {}
+[4.753782] (-) TimerEvent: {}
+[4.854409] (-) TimerEvent: {}
+[4.955046] (-) TimerEvent: {}
+[5.055670] (-) TimerEvent: {}
+[5.158320] (-) TimerEvent: {}
+[5.259297] (-) TimerEvent: {}
+[5.360207] (-) TimerEvent: {}
+[5.460857] (-) TimerEvent: {}
+[5.561704] (-) TimerEvent: {}
+[5.662400] (-) TimerEvent: {}
+[5.763076] (-) TimerEvent: {}
+[5.864074] (-) TimerEvent: {}
+[5.965530] (-) TimerEvent: {}
+[6.066475] (-) TimerEvent: {}
+[6.167088] (-) TimerEvent: {}
+[6.272508] (-) TimerEvent: {}
+[6.373386] (-) TimerEvent: {}
+[6.477529] (-) TimerEvent: {}
+[6.578180] (-) TimerEvent: {}
+[6.679456] (-) TimerEvent: {}
+[6.755864] (arm_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.779746] (-) TimerEvent: {}
+[6.880879] (-) TimerEvent: {}
+[6.981813] (-) TimerEvent: {}
+[7.082414] (-) TimerEvent: {}
+[7.183333] (-) TimerEvent: {}
+[7.284188] (-) TimerEvent: {}
+[7.387111] (-) TimerEvent: {}
+[7.491073] (-) TimerEvent: {}
+[7.592152] (-) TimerEvent: {}
+[7.693597] (-) TimerEvent: {}
+[7.724083] (arm_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.760120] (arm_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.766290] (arm_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.770027] (arm_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.791500] (arm_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.794260] (-) TimerEvent: {}
+[7.894840] (-) TimerEvent: {}
+[7.995567] (-) TimerEvent: {}
+[8.096428] (-) TimerEvent: {}
+[8.198528] (-) TimerEvent: {}
+[8.299265] (-) TimerEvent: {}
+[8.399826] (-) TimerEvent: {}
+[8.500655] (-) TimerEvent: {}
+[8.601672] (-) TimerEvent: {}
+[8.663528] (arm_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.684225] (arm_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.686457] (arm_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.689452] (arm_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.702137] (-) TimerEvent: {}
+[8.802972] (-) TimerEvent: {}
+[8.904002] (-) TimerEvent: {}
+[9.008971] (-) TimerEvent: {}
+[9.110438] (-) TimerEvent: {}
+[9.216163] (-) TimerEvent: {}
+[9.317275] (-) TimerEvent: {}
+[9.418139] (-) TimerEvent: {}
+[9.518834] (-) TimerEvent: {}
+[9.619415] (-) TimerEvent: {}
+[9.721171] (-) TimerEvent: {}
+[9.821725] (-) TimerEvent: {}
+[9.922287] (-) TimerEvent: {}
+[10.022924] (-) TimerEvent: {}
+[10.123852] (-) TimerEvent: {}
+[10.225409] (-) TimerEvent: {}
+[10.326793] (-) TimerEvent: {}
+[10.428649] (-) TimerEvent: {}
+[10.534441] (-) TimerEvent: {}
+[10.635214] (-) TimerEvent: {}
+[10.736274] (-) TimerEvent: {}
+[10.837340] (-) TimerEvent: {}
+[10.940944] (-) TimerEvent: {}
+[11.041536] (-) TimerEvent: {}
+[11.142200] (-) TimerEvent: {}
+[11.242866] (-) TimerEvent: {}
+[11.343599] (-) TimerEvent: {}
+[11.444581] (-) TimerEvent: {}
+[11.545279] (-) TimerEvent: {}
+[11.645864] (-) TimerEvent: {}
+[11.747241] (-) TimerEvent: {}
+[11.848034] (-) TimerEvent: {}
+[11.948943] (-) TimerEvent: {}
+[12.050610] (-) TimerEvent: {}
+[12.151325] (-) TimerEvent: {}
+[12.252326] (-) TimerEvent: {}
+[12.354375] (-) TimerEvent: {}
+[12.459972] (-) TimerEvent: {}
+[12.560874] (-) TimerEvent: {}
+[12.662672] (-) TimerEvent: {}
+[12.764423] (-) TimerEvent: {}
+[12.865908] (-) TimerEvent: {}
+[12.966869] (-) TimerEvent: {}
+[13.068520] (-) TimerEvent: {}
+[13.170289] (-) TimerEvent: {}
+[13.271261] (-) TimerEvent: {}
+[13.372069] (-) TimerEvent: {}
+[13.473350] (-) TimerEvent: {}
+[13.574295] (-) TimerEvent: {}
+[13.674940] (-) TimerEvent: {}
+[13.777578] (-) TimerEvent: {}
+[13.878420] (-) TimerEvent: {}
+[13.979554] (-) TimerEvent: {}
+[14.082222] (-) TimerEvent: {}
+[14.183074] (-) TimerEvent: {}
+[14.283667] (-) TimerEvent: {}
+[14.384433] (-) TimerEvent: {}
+[14.485719] (-) TimerEvent: {}
+[14.586772] (-) TimerEvent: {}
+[14.687452] (-) TimerEvent: {}
+[14.788569] (-) TimerEvent: {}
+[14.889920] (-) TimerEvent: {}
+[14.994965] (-) TimerEvent: {}
+[15.096234] (-) TimerEvent: {}
+[15.197464] (-) TimerEvent: {}
+[15.298536] (-) TimerEvent: {}
+[15.399100] (-) TimerEvent: {}
+[15.504841] (-) TimerEvent: {}
+[15.605385] (-) TimerEvent: {}
+[15.706163] (-) TimerEvent: {}
+[15.712389] (arm_robot) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[15.713185] (arm_robot) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[15.713414] (arm_robot) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[15.713569] (arm_robot) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[15.713721] (arm_robot) StderrLine: {'line': b'\n'}
+[15.713884] (arm_robot) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[15.714091] (arm_robot) StderrLine: {'line': b'  any of the following names:\n'}
+[15.714260] (arm_robot) StderrLine: {'line': b'\n'}
+[15.714429] (arm_robot) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[15.714595] (arm_robot) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[15.714821] (arm_robot) StderrLine: {'line': b'\n'}
+[15.715009] (arm_robot) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[15.715288] (arm_robot) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[15.715491] (arm_robot) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[15.715654] (arm_robot) StderrLine: {'line': b'  has been installed.\n'}
+[15.715833] (arm_robot) StderrLine: {'line': b'\n'}
+[15.716024] (arm_robot) StderrLine: {'line': b'\x1b[0m\n'}
+[15.716804] (arm_robot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[15.717164] (arm_robot) StdoutLine: {'line': b'See also "/home/shrey/arm_robot/build/arm_robot/CMakeFiles/CMakeOutput.log".\n'}
+[15.769512] (arm_robot) CommandEnded: {'returncode': 1}
+[15.806784] (-) TimerEvent: {}
+[15.894500] (arm_robot) JobEnded: {'identifier': 'arm_robot', 'rc': 1}
+[15.908773] (-) EventReactorShutdown: {}
